@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;   
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)),url(images/hills2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+button{
+    width: 150px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+h5{
+    color: black;
+    font-style: bold;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px ;
+    background-image: url(images/hills1.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+.card1{
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1062498349/thumb/1.jpg?ip=x480);
+}
+.card2{
+    background-image: url(https://i0.wp.com/www.ahataxis.com/blog/wp-content/uploads/2018/10/Kodaikanal-2.png?resize=651%2C346&ssl=1);
+}
+.card3{
+    background-image: url(https://steemitimages.com/DQmVM17MdzRocC25HCLxAgUend3xr6ihGdUK7n8CpyuyN2n/Backwater%20cruise%20Beautiful%20Kerala.jpg);
+}
+.card4{
+    background-image: url(https://www.manfrottoimaginemore.com/site/uploads/2014/10/yercaud-1.jpg);
+}
